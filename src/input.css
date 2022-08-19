@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	button,
+	[type='button'] {
+		@apply bg-red-600 transition ease-in-out;
+	}
+}
